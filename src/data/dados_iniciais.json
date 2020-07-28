@@ -5,7 +5,7 @@
       "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2020/04/02/palmeiras-lidera-soma-de-titulos-nacionais-e-sp-em-pontuacao-veja-ranking.htm",
       "cor": "green",
       "link_extra": {
-        "text": "Títulos Nacionais",
+        "text": "Títulos",
         "url": "https://www.palmeiras.com.br/pt-br/galeria-de-titulos/"
       },
       "videos": [
@@ -54,6 +54,32 @@
           "titulo": "Campeão Brasileiro 1972",
           "url": "https://youtu.be/4ChUCM-tXjo"
         }          
+      ]
+    },
+    {
+      "titulo": "Títulos Internacionais",
+      "cor": "green",
+      "videos": [
+        {
+          "titulo": "Primeiro Clube Campeão Mundial (1951)",
+          "url": "https://youtu.be/sVUKwIvvn3U"
+        },
+        {
+          "titulo": "História da Libertadores da América (1999)",
+          "url": "https://youtu.be/W_HpOKBrP0A"
+        },
+        {
+          "titulo": "Principais Momentos do Título da Libertadores",
+          "url": "https://youtu.be/o6K2XarhRv0"
+        },
+        {
+          "titulo": "Palmeiras x Deportivo Cali - Libertadores",
+          "url": "https://youtu.be/CWgvGrH2Ndk"
+        },
+        {
+          "titulo": "Campeão Mercosul 1998",
+          "url": "https://youtu.be/Nssrl8NHXtc"
+        }
       ]
     },
     {
