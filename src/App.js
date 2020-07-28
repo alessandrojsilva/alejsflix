@@ -13,7 +13,7 @@ function App() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Essa é a Lorena, ela tem 7 anos e está numa imersão tecnológica pesada desde o início dessa pandemia.. De aulas on line via zoom e teams à gravações e edições de vídeo"}
+        videoDescription={"Palmeiras minha vida é Você! Campeão Copa do Brasil 2015 sobre o Santos"}
       />
 
       <Carousel

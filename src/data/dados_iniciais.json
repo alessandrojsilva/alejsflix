@@ -1,76 +1,102 @@
 {
   "categorias": [
     {
-      "titulo": "Front End",
-      "link": "https://www.alura.com.br/formacao-front-end",
-      "cor": "#6BD1FF",
+      "titulo": "Nacionais",
+      "link": "https://www.uol.com.br/esporte/futebol/ultimas-noticias/2020/04/02/palmeiras-lidera-soma-de-titulos-nacionais-e-sp-em-pontuacao-veja-ranking.htm",
+      "cor": "green",
       "link_extra": {
-        "text": "Formação de Front End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-front-end"
+        "text": "Títulos Nacionais",
+        "url": "https://www.palmeiras.com.br/pt-br/galeria-de-titulos/"
       },
       "videos": [
         {
-          "titulo": "Um vídeo qualquer da minha aspirante a youtuber de 7 anos!  #mylittlegirl",
-          "url": "https://www.youtube.com/watch?v=PpJV3mUpML0"
+          "titulo": "Campeão Brasileiro 2018 - Principais Gols",
+          "url": "https://youtu.be/jGPxeVXyc9k"
         },
         {
-          "titulo": "SEO com React",
-          "url": "https://www.youtube.com/watch?v=c8mVlakBESE"
+          "titulo": "Campeão Brasileiro 2018 - Todos os Gols",
+          "url": "https://youtu.be/-15e2Fh6VJs"
         },
         {
-          "titulo": "Componentização com VanillaJS #AluraMais",
-          "url": "https://www.youtube.com/watch?v=LatCKpcOMak"
+          "titulo": "Campeão Brasileiro 2016 - Principais Gols",
+          "url": "https://youtu.be/UKJ-b_doCx4"
         },
         {
-          "titulo": "Pare de chutar e aprenda a display: inline #01",
-          "url": "https://www.youtube.com/watch?v=5PS6ku8NzIE"
+          "titulo": "Campeão Copa do Brasil 2015 - Palmeiras x Santos",
+          "url": "https://www.youtube.com/watch?v=Mzor4AVHBbg"
+        },
+
+        {
+          "titulo": "Campeão Copa do Brasil 2012 - Invicto",
+          "url": "https://youtu.be/3bXEarCvSgo"
         },
         {
-          "titulo": "Template String: Interpolando strings com JavaScript #AluraMais",
-          "url": "https://www.youtube.com/watch?v=ORI_HTXaIw0"
+          "titulo": "História do Maior Campeão Nacional",
+          "url": "https://youtu.be/gDrtn3wf-wU"
         },
         {
-          "titulo": "Qual é a melhor linguagem de programação? #HipstersPontoTube",
-          "url": "https://www.youtube.com/watch?v=Uh-GNH-t89w"
+          "titulo": "Campeão Copa do Brasil 1998",
+          "url": "https://youtu.be/Kn7cYmFQmwE"
         },
         {
-          "titulo": "Novidades do Angular v9",
-          "url": "https://www.youtube.com/watch?v=34uHo7hFmG0"
+          "titulo": "Campeão Brasileiro 1994",
+          "url": "https://youtu.be/X4LLKrJZn_Q"
         },
         {
-          "titulo": "Base para aprender os frameworks",
-          "url": "https://www.youtube.com/watch?v=QzDjdlF1BQI"
-        }        
+          "titulo": "Campeão Brasileiro 1993",
+          "url": "https://youtu.be/gIIMKkYlWGI"
+        },
+        {
+          "titulo": "Campeão Brasileiro 1973",
+          "url": "https://youtu.be/LGdShPYzQsg"
+        },  
+        {
+          "titulo": "Campeão Brasileiro 1972",
+          "url": "https://youtu.be/4ChUCM-tXjo"
+        }          
       ]
     },
     {
-      "titulo": "Back End",
+      "titulo": "Rivalidades",
       "cor": "#00C86F",
       "link_extra": {
-        "text": "Cursos de Back End na Alura",
-        "url": "https://www.alura.com.br/cursos-online-programacao"
+        "text": "Alguns momentos de rivalidade",
+        "url": "https://pt.wikipedia.org/wiki/Derby_Paulista"
       },
       "videos": [
         {
-          "titulo": "PERCURSO em NÍVEL em ÁRVORE BINÁRIA | Estruturas de Dados #14",
-          "url": "https://www.youtube.com/watch?v=UOK7nS2E9xM"
+          "titulo": "As maiores finais contra o Corinthians",
+          "url": "https://youtu.be/hTefAAeT6Q0"
         },
         {
-          "titulo": "Coders4Tips - S01E04: GitHub CLI - Uma Nova Experiência no Github!",
-          "url": "https://www.youtube.com/watch?v=6o6-bKOZOEY"
+          "titulo": "100 anos de rivalidade",
+          "url": "https://youtu.be/UjWusoY-nWE"
         },
         {
-          "titulo": "Programei 4 robôs que criam vídeos para mim no YouTube",
-          "url": "https://www.youtube.com/watch?v=kjhu1LEmRpY"
+          "titulo": "Fim do Jejum sobre o maior Rival",
+          "url": "https://youtu.be/mzWIiolW4rw"
         },
         {
-          "titulo": "API: Dicionário do Programador",
-          "url": "https://www.youtube.com/watch?v=vGuqKIRWosk"
+          "titulo": "Palmeiras vs São Paulo",
+          "url": "https://youtu.be/m2Xj1bqTEEc"
         }, 
         {
-          "titulo": "Usando Git Direito",
-          "url": "https://www.youtube.com/watch?v=6OokP-NE49k"
+          "titulo": "Direto da arquibancada",
+          "url": "https://youtu.be/tIKX64J1ztY"
+        },
+        {
+          "titulo": "Palmeiras Vs Santos",
+          "url": "https://youtu.be/N-dz01c9OiQ"
+        },
+        {
+          "titulo": "Edmundo dá um capítulo à parte",
+          "url": "https://youtu.be/JiyTZcm3h5M"
+        },
+        {
+          "título": "Valdivia x Corinthians",
+          "url": "https://youtu.be/Qav-bbeJUQ8"
         }
+ 
       ]
     },
     {
@@ -123,7 +149,7 @@
     },
     {
       "titulo": "Games",
-      "cor": "red",
+      "cor": "green",
       "link_extra": {
         "text": "Formação de Jogos na Alura",
         "url": "https://www.alura.com.br/formacao-jogos-unity"
