@@ -13,7 +13,7 @@ function App() {
       <BannerMain
         videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
         url={dadosIniciais.categorias[0].videos[0].url}
-        videoDescription={"Palmeiras minha vida é Você! Campeão Copa do Brasil 2015 sobre o Santos"}
+        videoDescription={"Palmeiras minha vida é Você! O Maior campeão do Brasil :)"}
       />
 
       <Carousel
