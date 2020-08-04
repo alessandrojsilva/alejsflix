@@ -1,18 +1,29 @@
-import React from 'react';
+import React, {useEffect, useState} from 'react';
 import { Link, useHistory } from 'react-router-dom';
 import PageDefault from '../../../components/PageDefault';
 import UseForm from '../../../hooks/useForm';
 import FormField from '../../../components/FormField';
 import Button from '../../../components/Button';
 import videosRepository from '../../../repositories/videos';
+import categoriasRepository from '../../../repositories/categorias';
 
 function CadastroVideo() {
   const history = useHistory();
+  const [categorias, setCategorias] = useState([]);
+  const categoryTitles = categorias.map(({ titulo }) => titulo);
   const { handleChange, values } = UseForm({
     titulo:  'Video padrão',
     url: 'https://www.youtube.com/watch?v=Usnp2ht_Upg',
     categoria: 'front-end',
   });
+
+  useEffect(() => {
+    categoriasRepository
+    .getAll()
+    .then((categoriasFromServer) => {
+      setCategorias(categoriasFromServer);
+    });
+  }, []);
 
     return (
       <PageDefault>
@@ -22,10 +33,14 @@ function CadastroVideo() {
           event.preventDefault();
           //alert('Video cadastrado com sucesso');
           
+          const categoriaEscolhida = categorias.find((categoria) => {
+            return categoria.titulo === values.categoria;
+          });
+
           videosRepository.create({
             titulo: values.titulo,
             url: values.url,
-            categoriaId: 1,
+            categoriaId: categoriaEscolhida.id,
           })
             .then(() => {
               console.log('cadastrou com sucesso!!');
@@ -42,16 +57,18 @@ function CadastroVideo() {
 
           <FormField
           label="url"
-          name="titulo"
+          name="url"
           value={values.url}
           onChange={handleChange}
-          />
+ 
+        />
 
           <FormField
           label="categoria"
-          name="titulo"
+          name="categoria"
           value={values.categoria}
           onChange={handleChange}
+          suggestions ={categoryTitles}
           />
 
           <Button type="submit">
